@@ -31,6 +31,15 @@ Description: Delete a rental property from the system.
 Data Models
 House Entity
 
+6. Paginated List of Houses
+
+Endpoint: GET /?page={page}&size={size}
+
+Description: Retrieve a paginated list of rental properties.
+
+    page: The page number to retrieve (default: 0).
+    size: The number of items per page (default: 10).
+
     id: Unique identifier for the property.
     title: Title of the property listing.
     description: Description of the property.
